@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C0D12922E70B3B003A7E3B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C0D12822E70B3B003A7E3B /* Card.m */; };
+		15C0D12C22E70D6D003A7E3B /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C0D12B22E70D6D003A7E3B /* Deck.m */; };
 		15CECD1622E7052500991091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CECD1522E7052500991091 /* AppDelegate.m */; };
 		15CECD1922E7052500991091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CECD1822E7052500991091 /* ViewController.m */; };
 		15CECD1C22E7052500991091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CECD1A22E7052500991091 /* Main.storyboard */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15C0D12722E70B3B003A7E3B /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		15C0D12822E70B3B003A7E3B /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		15C0D12A22E70D6D003A7E3B /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		15C0D12B22E70D6D003A7E3B /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		15CECD1122E7052400991091 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CECD1422E7052500991091 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15CECD1522E7052500991091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +73,10 @@
 				15CECD1F22E7052600991091 /* LaunchScreen.storyboard */,
 				15CECD2222E7052600991091 /* Info.plist */,
 				15CECD2322E7052600991091 /* main.m */,
+				15C0D12722E70B3B003A7E3B /* Card.h */,
+				15C0D12822E70B3B003A7E3B /* Card.m */,
+				15C0D12A22E70D6D003A7E3B /* Deck.h */,
+				15C0D12B22E70D6D003A7E3B /* Deck.m */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C0D12C22E70D6D003A7E3B /* Deck.m in Sources */,
 				15CECD1922E7052500991091 /* ViewController.m in Sources */,
 				15CECD2422E7052600991091 /* main.m in Sources */,
 				15CECD1622E7052500991091 /* AppDelegate.m in Sources */,
+				15C0D12922E70B3B003A7E3B /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
