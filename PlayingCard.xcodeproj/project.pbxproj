@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		159C1E6722F2B8F100875048 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C1E6622F2B8F100875048 /* CardMatchingGame.m */; };
 		15C0D12922E70B3B003A7E3B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C0D12822E70B3B003A7E3B /* Card.m */; };
 		15C0D12C22E70D6D003A7E3B /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C0D12B22E70D6D003A7E3B /* Deck.m */; };
 		15CECD1622E7052500991091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CECD1522E7052500991091 /* AppDelegate.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		159C1E6522F2B8F100875048 /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		159C1E6622F2B8F100875048 /* CardMatchingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 		15C0D12722E70B3B003A7E3B /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		15C0D12822E70B3B003A7E3B /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		15C0D12A22E70D6D003A7E3B /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
@@ -51,6 +54,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15B08FC522F27FBF00E57F2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15CECD2222E7052600991091 /* Info.plist */,
+				15CECD2322E7052600991091 /* main.m */,
+				15CECD1F22E7052600991091 /* LaunchScreen.storyboard */,
+				15CECD1522E7052500991091 /* AppDelegate.m */,
+				15CECD1422E7052500991091 /* AppDelegate.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15B08FC622F2961C00E57F2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15C0D12722E70B3B003A7E3B /* Card.h */,
+				15C0D12822E70B3B003A7E3B /* Card.m */,
+				15C0D12A22E70D6D003A7E3B /* Deck.h */,
+				15C0D12B22E70D6D003A7E3B /* Deck.m */,
+				A1AD01F722EB49410047DCF8 /* PlayingCard.h */,
+				A1AD01F822EB49410047DCF8 /* PlayingCard.m */,
+				A1D3C99922EC0A400039D8C4 /* PlayingCardDeck.h */,
+				A1D3C99A22EC0A400039D8C4 /* PlayingCardDeck.m */,
+				159C1E6522F2B8F100875048 /* CardMatchingGame.h */,
+				159C1E6622F2B8F100875048 /* CardMatchingGame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		15CECD0822E7052400991091 = {
 			isa = PBXGroup;
 			children = (
@@ -70,23 +102,12 @@
 		15CECD1322E7052500991091 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				15CECD1422E7052500991091 /* AppDelegate.h */,
-				15CECD1522E7052500991091 /* AppDelegate.m */,
+				15B08FC622F2961C00E57F2B /* Model */,
+				15CECD1A22E7052500991091 /* Main.storyboard */,
 				15CECD1722E7052500991091 /* ViewController.h */,
 				15CECD1822E7052500991091 /* ViewController.m */,
-				15CECD1A22E7052500991091 /* Main.storyboard */,
 				15CECD1D22E7052600991091 /* Assets.xcassets */,
-				15CECD1F22E7052600991091 /* LaunchScreen.storyboard */,
-				15CECD2222E7052600991091 /* Info.plist */,
-				15CECD2322E7052600991091 /* main.m */,
-				15C0D12722E70B3B003A7E3B /* Card.h */,
-				15C0D12822E70B3B003A7E3B /* Card.m */,
-				15C0D12A22E70D6D003A7E3B /* Deck.h */,
-				15C0D12B22E70D6D003A7E3B /* Deck.m */,
-				A1AD01F722EB49410047DCF8 /* PlayingCard.h */,
-				A1AD01F822EB49410047DCF8 /* PlayingCard.m */,
-				A1D3C99922EC0A400039D8C4 /* PlayingCardDeck.h */,
-				A1D3C99A22EC0A400039D8C4 /* PlayingCardDeck.m */,
+				15B08FC522F27FBF00E57F2B /* Supporting Files */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
@@ -165,6 +186,7 @@
 				15C0D12C22E70D6D003A7E3B /* Deck.m in Sources */,
 				15CECD1922E7052500991091 /* ViewController.m in Sources */,
 				15CECD2422E7052600991091 /* main.m in Sources */,
+				159C1E6722F2B8F100875048 /* CardMatchingGame.m in Sources */,
 				A1D3C99B22EC0A400039D8C4 /* PlayingCardDeck.m in Sources */,
 				15CECD1622E7052500991091 /* AppDelegate.m in Sources */,
 				15C0D12922E70B3B003A7E3B /* Card.m in Sources */,
@@ -311,7 +333,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84JV8F36TK;
-				INFOPLIST_FILE = PlayingCard/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlayingCard/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84JV8F36TK;
-				INFOPLIST_FILE = PlayingCard/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlayingCard/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
