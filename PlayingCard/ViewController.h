@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Model/Deck.h"
 
 @interface ViewController : UIViewController
 
+- (Deck *)createDeck; // abstract method
 
 @end
 
